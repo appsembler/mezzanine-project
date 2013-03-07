@@ -1,4 +1,3 @@
-
 ######################
 # MEZZANINE SETTINGS #
 ######################
@@ -301,6 +300,8 @@ OPTIONAL_APPS = (
 )
 
 DEBUG_TOOLBAR_CONFIG = {"INTERCEPT_REDIRECTS": False}
+
+ALLOWED_HOSTS = ['.appsembler.net', '.dotcloud.com']
 
 ###################
 # DEPLOY SETTINGS #
